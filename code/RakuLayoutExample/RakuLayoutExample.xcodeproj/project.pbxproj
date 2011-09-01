@@ -1,0 +1,967 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A79B8F4D140F2D77004E4A9C /* RKUHelloViewControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A79B8F4A140F2D77004E4A9C /* RKUHelloViewControllerTest.m */; };
+		A79B8F80140F32B6004E4A9C /* RakuLayoutExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A7DE9D25140E8DE0003AB0DD /* RakuLayoutExample.xcdatamodeld */; };
+		A79B8F81140F32B6004E4A9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7DE9D31140E8DE0003AB0DD /* main.m */; };
+		A79B8F82140F32B6004E4A9C /* RKUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7DE9D4E140E9036003AB0DD /* RKUAppDelegate.m */; };
+		A79B8F83140F32B6004E4A9C /* RKUAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = A7DE9D52140E9051003AB0DD /* RKUAppDelegate_iPad.m */; };
+		A79B8F84140F32B6004E4A9C /* RKUAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = A7DE9D56140E9073003AB0DD /* RKUAppDelegate_iPhone.m */; };
+		A79B8F85140F32B6004E4A9C /* RKUHelloViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7DE9D5B140E94E9003AB0DD /* RKUHelloViewController.m */; };
+		A79B8F86140F32B6004E4A9C /* RKUHelloViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = A7DE9D6E140E9FA2003AB0DD /* RKUHelloViewController_iPhone.m */; };
+		A79B8F87140F32B6004E4A9C /* RKUHelloViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = A7DE9D75140E9FB3003AB0DD /* RKUHelloViewController_iPad.m */; };
+		A79B8F89140F32B6004E4A9C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7DE9C93140E8D11003AB0DD /* UIKit.framework */; };
+		A79B8F8A140F32B6004E4A9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7DE9C95140E8D11003AB0DD /* Foundation.framework */; };
+		A79B8F8B140F32B6004E4A9C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7DE9C97140E8D11003AB0DD /* CoreGraphics.framework */; };
+		A79B8F8C140F32B6004E4A9C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7DE9C99140E8D11003AB0DD /* CoreData.framework */; };
+		A79B8F8E140F32B6004E4A9C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7DE9D1F140E8DE0003AB0DD /* InfoPlist.strings */; };
+		A79B8F8F140F32B6004E4A9C /* RakuLayoutExample-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A7DE9D21140E8DE0003AB0DD /* RakuLayoutExample-Info.plist */; };
+		A79B8F90140F32B6004E4A9C /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7DE9D36140E8DE0003AB0DD /* MainWindow_iPad.xib */; };
+		A79B8F91140F32B6004E4A9C /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7DE9D39140E8DE0003AB0DD /* MainWindow_iPhone.xib */; };
+		A79B8F92140F32B6004E4A9C /* RKUHelloViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7DE9D7B140EA036003AB0DD /* RKUHelloViewController_iPad.xib */; };
+		A79B8F93140F32B6004E4A9C /* RKUHelloViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7DE9D7F140EA045003AB0DD /* RKUHelloViewController_iPhone.xib */; };
+		A79B8F9C140F3364004E4A9C /* KIFTestScenario+RKUAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A79B8F9B140F3364004E4A9C /* KIFTestScenario+RKUAdditions.m */; };
+		A79B8F9F140F3371004E4A9C /* RKUHelloViewControllerIntegrationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A79B8F9E140F3371004E4A9C /* RKUHelloViewControllerIntegrationTest.m */; };
+		A79B8FA4140F3421004E4A9C /* RakuLayoutExampleIntegrationTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A79B8FA3140F3421004E4A9C /* RakuLayoutExampleIntegrationTests-Info.plist */; };
+		A79B8FC0140F3539004E4A9C /* CGGeometry-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A79B8FA8140F3539004E4A9C /* CGGeometry-KIFAdditions.m */; };
+		A79B8FC1140F3539004E4A9C /* NSFileManager-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A79B8FAB140F3539004E4A9C /* NSFileManager-KIFAdditions.m */; };
+		A79B8FC2140F3539004E4A9C /* UIAccessibilityElement-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A79B8FAD140F3539004E4A9C /* UIAccessibilityElement-KIFAdditions.m */; };
+		A79B8FC3140F3539004E4A9C /* UIApplication-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A79B8FAF140F3539004E4A9C /* UIApplication-KIFAdditions.m */; };
+		A79B8FC4140F3539004E4A9C /* UIScrollView-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A79B8FB1140F3539004E4A9C /* UIScrollView-KIFAdditions.m */; };
+		A79B8FC5140F3539004E4A9C /* UITouch-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A79B8FB3140F3539004E4A9C /* UITouch-KIFAdditions.m */; };
+		A79B8FC6140F3539004E4A9C /* UIView-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A79B8FB5140F3539004E4A9C /* UIView-KIFAdditions.m */; };
+		A79B8FC7140F3539004E4A9C /* UIWindow-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A79B8FB7140F3539004E4A9C /* UIWindow-KIFAdditions.m */; };
+		A79B8FC8140F3539004E4A9C /* KIFTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = A79B8FBB140F3539004E4A9C /* KIFTestController.m */; };
+		A79B8FC9140F3539004E4A9C /* KIFTestScenario.m in Sources */ = {isa = PBXBuildFile; fileRef = A79B8FBD140F3539004E4A9C /* KIFTestScenario.m */; };
+		A79B8FCA140F3539004E4A9C /* KIFTestStep.m in Sources */ = {isa = PBXBuildFile; fileRef = A79B8FBF140F3539004E4A9C /* KIFTestStep.m */; };
+		A7DE9C94140E8D11003AB0DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7DE9C93140E8D11003AB0DD /* UIKit.framework */; };
+		A7DE9C96140E8D11003AB0DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7DE9C95140E8D11003AB0DD /* Foundation.framework */; };
+		A7DE9C98140E8D11003AB0DD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7DE9C97140E8D11003AB0DD /* CoreGraphics.framework */; };
+		A7DE9C9A140E8D11003AB0DD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7DE9C99140E8D11003AB0DD /* CoreData.framework */; };
+		A7DE9CBF140E8D11003AB0DD /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7DE9CBE140E8D11003AB0DD /* SenTestingKit.framework */; };
+		A7DE9CC0140E8D11003AB0DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7DE9C93140E8D11003AB0DD /* UIKit.framework */; };
+		A7DE9CC1140E8D11003AB0DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7DE9C95140E8D11003AB0DD /* Foundation.framework */; };
+		A7DE9CC2140E8D11003AB0DD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7DE9C97140E8D11003AB0DD /* CoreGraphics.framework */; };
+		A7DE9CC3140E8D11003AB0DD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7DE9C99140E8D11003AB0DD /* CoreData.framework */; };
+		A7DE9D3B140E8DE0003AB0DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7DE9D1F140E8DE0003AB0DD /* InfoPlist.strings */; };
+		A7DE9D3C140E8DE0003AB0DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7DE9D1F140E8DE0003AB0DD /* InfoPlist.strings */; };
+		A7DE9D3D140E8DE0003AB0DD /* RakuLayoutExample-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A7DE9D21140E8DE0003AB0DD /* RakuLayoutExample-Info.plist */; };
+		A7DE9D3E140E8DE0003AB0DD /* RakuLayoutExample-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A7DE9D21140E8DE0003AB0DD /* RakuLayoutExample-Info.plist */; };
+		A7DE9D3F140E8DE0003AB0DD /* RakuLayoutExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A7DE9D25140E8DE0003AB0DD /* RakuLayoutExample.xcdatamodeld */; };
+		A7DE9D40140E8DE0003AB0DD /* RakuLayoutExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A7DE9D25140E8DE0003AB0DD /* RakuLayoutExample.xcdatamodeld */; };
+		A7DE9D47140E8DE0003AB0DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7DE9D31140E8DE0003AB0DD /* main.m */; };
+		A7DE9D48140E8DE0003AB0DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7DE9D31140E8DE0003AB0DD /* main.m */; };
+		A7DE9D49140E8DE0003AB0DD /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7DE9D36140E8DE0003AB0DD /* MainWindow_iPad.xib */; };
+		A7DE9D4A140E8DE0003AB0DD /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7DE9D36140E8DE0003AB0DD /* MainWindow_iPad.xib */; };
+		A7DE9D4B140E8DE0003AB0DD /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7DE9D39140E8DE0003AB0DD /* MainWindow_iPhone.xib */; };
+		A7DE9D4C140E8DE0003AB0DD /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7DE9D39140E8DE0003AB0DD /* MainWindow_iPhone.xib */; };
+		A7DE9D4F140E9036003AB0DD /* RKUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7DE9D4E140E9036003AB0DD /* RKUAppDelegate.m */; };
+		A7DE9D50140E9036003AB0DD /* RKUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7DE9D4E140E9036003AB0DD /* RKUAppDelegate.m */; };
+		A7DE9D53140E9051003AB0DD /* RKUAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = A7DE9D52140E9051003AB0DD /* RKUAppDelegate_iPad.m */; };
+		A7DE9D54140E9051003AB0DD /* RKUAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = A7DE9D52140E9051003AB0DD /* RKUAppDelegate_iPad.m */; };
+		A7DE9D57140E9073003AB0DD /* RKUAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = A7DE9D56140E9073003AB0DD /* RKUAppDelegate_iPhone.m */; };
+		A7DE9D58140E9073003AB0DD /* RKUAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = A7DE9D56140E9073003AB0DD /* RKUAppDelegate_iPhone.m */; };
+		A7DE9D5D140E94E9003AB0DD /* RKUHelloViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7DE9D5B140E94E9003AB0DD /* RKUHelloViewController.m */; };
+		A7DE9D5E140E94E9003AB0DD /* RKUHelloViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7DE9D5B140E94E9003AB0DD /* RKUHelloViewController.m */; };
+		A7DE9D70140E9FA2003AB0DD /* RKUHelloViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = A7DE9D6E140E9FA2003AB0DD /* RKUHelloViewController_iPhone.m */; };
+		A7DE9D71140E9FA2003AB0DD /* RKUHelloViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = A7DE9D6E140E9FA2003AB0DD /* RKUHelloViewController_iPhone.m */; };
+		A7DE9D77140E9FB3003AB0DD /* RKUHelloViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = A7DE9D75140E9FB3003AB0DD /* RKUHelloViewController_iPad.m */; };
+		A7DE9D78140E9FB3003AB0DD /* RKUHelloViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = A7DE9D75140E9FB3003AB0DD /* RKUHelloViewController_iPad.m */; };
+		A7DE9D7D140EA036003AB0DD /* RKUHelloViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7DE9D7B140EA036003AB0DD /* RKUHelloViewController_iPad.xib */; };
+		A7DE9D7E140EA036003AB0DD /* RKUHelloViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7DE9D7B140EA036003AB0DD /* RKUHelloViewController_iPad.xib */; };
+		A7DE9D81140EA045003AB0DD /* RKUHelloViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7DE9D7F140EA045003AB0DD /* RKUHelloViewController_iPhone.xib */; };
+		A7DE9D82140EA045003AB0DD /* RKUHelloViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7DE9D7F140EA045003AB0DD /* RKUHelloViewController_iPhone.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7DE9CC4140E8D11003AB0DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7DE9C86140E8D11003AB0DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7DE9C8E140E8D11003AB0DD;
+			remoteInfo = RakuLayoutExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A79B8F49140F2D77004E4A9C /* RKUHelloViewControllerTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKUHelloViewControllerTest.h; sourceTree = "<group>"; };
+		A79B8F4A140F2D77004E4A9C /* RKUHelloViewControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKUHelloViewControllerTest.m; sourceTree = "<group>"; };
+		A79B8F97140F32B6004E4A9C /* RakuLayoutExampleIntegrationTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RakuLayoutExampleIntegrationTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A79B8F9A140F3364004E4A9C /* KIFTestScenario+RKUAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KIFTestScenario+RKUAdditions.h"; sourceTree = "<group>"; };
+		A79B8F9B140F3364004E4A9C /* KIFTestScenario+RKUAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KIFTestScenario+RKUAdditions.m"; sourceTree = "<group>"; };
+		A79B8F9D140F3371004E4A9C /* RKUHelloViewControllerIntegrationTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKUHelloViewControllerIntegrationTest.h; sourceTree = "<group>"; };
+		A79B8F9E140F3371004E4A9C /* RKUHelloViewControllerIntegrationTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKUHelloViewControllerIntegrationTest.m; sourceTree = "<group>"; };
+		A79B8FA3140F3421004E4A9C /* RakuLayoutExampleIntegrationTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "RakuLayoutExampleIntegrationTests-Info.plist"; sourceTree = "<group>"; };
+		A79B8FA7140F3539004E4A9C /* CGGeometry-KIFAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGGeometry-KIFAdditions.h"; sourceTree = "<group>"; };
+		A79B8FA8140F3539004E4A9C /* CGGeometry-KIFAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CGGeometry-KIFAdditions.m"; sourceTree = "<group>"; };
+		A79B8FA9140F3539004E4A9C /* LoadableCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadableCategory.h; sourceTree = "<group>"; };
+		A79B8FAA140F3539004E4A9C /* NSFileManager-KIFAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager-KIFAdditions.h"; sourceTree = "<group>"; };
+		A79B8FAB140F3539004E4A9C /* NSFileManager-KIFAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager-KIFAdditions.m"; sourceTree = "<group>"; };
+		A79B8FAC140F3539004E4A9C /* UIAccessibilityElement-KIFAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAccessibilityElement-KIFAdditions.h"; sourceTree = "<group>"; };
+		A79B8FAD140F3539004E4A9C /* UIAccessibilityElement-KIFAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAccessibilityElement-KIFAdditions.m"; sourceTree = "<group>"; };
+		A79B8FAE140F3539004E4A9C /* UIApplication-KIFAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication-KIFAdditions.h"; sourceTree = "<group>"; };
+		A79B8FAF140F3539004E4A9C /* UIApplication-KIFAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication-KIFAdditions.m"; sourceTree = "<group>"; };
+		A79B8FB0140F3539004E4A9C /* UIScrollView-KIFAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView-KIFAdditions.h"; sourceTree = "<group>"; };
+		A79B8FB1140F3539004E4A9C /* UIScrollView-KIFAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView-KIFAdditions.m"; sourceTree = "<group>"; };
+		A79B8FB2140F3539004E4A9C /* UITouch-KIFAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITouch-KIFAdditions.h"; sourceTree = "<group>"; };
+		A79B8FB3140F3539004E4A9C /* UITouch-KIFAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITouch-KIFAdditions.m"; sourceTree = "<group>"; };
+		A79B8FB4140F3539004E4A9C /* UIView-KIFAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView-KIFAdditions.h"; sourceTree = "<group>"; };
+		A79B8FB5140F3539004E4A9C /* UIView-KIFAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView-KIFAdditions.m"; sourceTree = "<group>"; };
+		A79B8FB6140F3539004E4A9C /* UIWindow-KIFAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow-KIFAdditions.h"; sourceTree = "<group>"; };
+		A79B8FB7140F3539004E4A9C /* UIWindow-KIFAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow-KIFAdditions.m"; sourceTree = "<group>"; };
+		A79B8FB9140F3539004E4A9C /* KIF-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KIF-Prefix.pch"; sourceTree = "<group>"; };
+		A79B8FBA140F3539004E4A9C /* KIFTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIFTestController.h; sourceTree = "<group>"; };
+		A79B8FBB140F3539004E4A9C /* KIFTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIFTestController.m; sourceTree = "<group>"; };
+		A79B8FBC140F3539004E4A9C /* KIFTestScenario.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIFTestScenario.h; sourceTree = "<group>"; };
+		A79B8FBD140F3539004E4A9C /* KIFTestScenario.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIFTestScenario.m; sourceTree = "<group>"; };
+		A79B8FBE140F3539004E4A9C /* KIFTestStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIFTestStep.h; sourceTree = "<group>"; };
+		A79B8FBF140F3539004E4A9C /* KIFTestStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIFTestStep.m; sourceTree = "<group>"; };
+		A7DE9C8F140E8D11003AB0DD /* RakuLayoutExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RakuLayoutExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7DE9C93140E8D11003AB0DD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A7DE9C95140E8D11003AB0DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A7DE9C97140E8D11003AB0DD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A7DE9C99140E8D11003AB0DD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A7DE9CBD140E8D11003AB0DD /* RakuLayoutExampleTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RakuLayoutExampleTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7DE9CBE140E8D11003AB0DD /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A7DE9D20140E8DE0003AB0DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A7DE9D21140E8DE0003AB0DD /* RakuLayoutExample-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "RakuLayoutExample-Info.plist"; sourceTree = "<group>"; };
+		A7DE9D22140E8DE0003AB0DD /* RakuLayoutExample-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RakuLayoutExample-Prefix.pch"; sourceTree = "<group>"; };
+		A7DE9D26140E8DE0003AB0DD /* RakuLayoutExample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RakuLayoutExample.xcdatamodel; sourceTree = "<group>"; };
+		A7DE9D31140E8DE0003AB0DD /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7DE9D37140E8DE0003AB0DD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		A7DE9D3A140E8DE0003AB0DD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		A7DE9D4D140E9036003AB0DD /* RKUAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKUAppDelegate.h; sourceTree = "<group>"; };
+		A7DE9D4E140E9036003AB0DD /* RKUAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKUAppDelegate.m; sourceTree = "<group>"; };
+		A7DE9D51140E9051003AB0DD /* RKUAppDelegate_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKUAppDelegate_iPad.h; sourceTree = "<group>"; };
+		A7DE9D52140E9051003AB0DD /* RKUAppDelegate_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKUAppDelegate_iPad.m; sourceTree = "<group>"; };
+		A7DE9D55140E9073003AB0DD /* RKUAppDelegate_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKUAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		A7DE9D56140E9073003AB0DD /* RKUAppDelegate_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKUAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		A7DE9D5A140E94E9003AB0DD /* RKUHelloViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKUHelloViewController.h; sourceTree = "<group>"; };
+		A7DE9D5B140E94E9003AB0DD /* RKUHelloViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKUHelloViewController.m; sourceTree = "<group>"; };
+		A7DE9D6D140E9FA2003AB0DD /* RKUHelloViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKUHelloViewController_iPhone.h; sourceTree = "<group>"; };
+		A7DE9D6E140E9FA2003AB0DD /* RKUHelloViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKUHelloViewController_iPhone.m; sourceTree = "<group>"; };
+		A7DE9D74140E9FB3003AB0DD /* RKUHelloViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKUHelloViewController_iPad.h; sourceTree = "<group>"; };
+		A7DE9D75140E9FB3003AB0DD /* RKUHelloViewController_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKUHelloViewController_iPad.m; sourceTree = "<group>"; };
+		A7DE9D7C140EA036003AB0DD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RKUHelloViewController_iPad.xib; sourceTree = "<group>"; };
+		A7DE9D80140EA045003AB0DD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RKUHelloViewController_iPhone.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A79B8F88140F32B6004E4A9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A79B8F89140F32B6004E4A9C /* UIKit.framework in Frameworks */,
+				A79B8F8A140F32B6004E4A9C /* Foundation.framework in Frameworks */,
+				A79B8F8B140F32B6004E4A9C /* CoreGraphics.framework in Frameworks */,
+				A79B8F8C140F32B6004E4A9C /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7DE9C8C140E8D11003AB0DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7DE9C94140E8D11003AB0DD /* UIKit.framework in Frameworks */,
+				A7DE9C96140E8D11003AB0DD /* Foundation.framework in Frameworks */,
+				A7DE9C98140E8D11003AB0DD /* CoreGraphics.framework in Frameworks */,
+				A7DE9C9A140E8D11003AB0DD /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7DE9CB9140E8D11003AB0DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7DE9CBF140E8D11003AB0DD /* SenTestingKit.framework in Frameworks */,
+				A7DE9CC0140E8D11003AB0DD /* UIKit.framework in Frameworks */,
+				A7DE9CC1140E8D11003AB0DD /* Foundation.framework in Frameworks */,
+				A7DE9CC2140E8D11003AB0DD /* CoreGraphics.framework in Frameworks */,
+				A7DE9CC3140E8D11003AB0DD /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A79B8F48140F2D77004E4A9C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A79B8F49140F2D77004E4A9C /* RKUHelloViewControllerTest.h */,
+				A79B8F4A140F2D77004E4A9C /* RKUHelloViewControllerTest.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A79B8F4B140F2D77004E4A9C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A79B8F4C140F2D77004E4A9C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A79B8F4E140F2D84004E4A9C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A79B8F9D140F3371004E4A9C /* RKUHelloViewControllerIntegrationTest.h */,
+				A79B8F9E140F3371004E4A9C /* RKUHelloViewControllerIntegrationTest.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A79B8F4F140F2D84004E4A9C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A79B8F50140F2D84004E4A9C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A79B8F7A140F3045004E4A9C /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				A79B8F9A140F3364004E4A9C /* KIFTestScenario+RKUAdditions.h */,
+				A79B8F9B140F3364004E4A9C /* KIFTestScenario+RKUAdditions.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		A79B8FA2140F3421004E4A9C /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				A79B8FA3140F3421004E4A9C /* RakuLayoutExampleIntegrationTests-Info.plist */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		A79B8FA5140F3539004E4A9C /* KIF */ = {
+			isa = PBXGroup;
+			children = (
+				A79B8FA6140F3539004E4A9C /* Additions */,
+				A79B8FB8140F3539004E4A9C /* Classes */,
+			);
+			path = KIF;
+			sourceTree = "<group>";
+		};
+		A79B8FA6140F3539004E4A9C /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				A79B8FA7140F3539004E4A9C /* CGGeometry-KIFAdditions.h */,
+				A79B8FA8140F3539004E4A9C /* CGGeometry-KIFAdditions.m */,
+				A79B8FA9140F3539004E4A9C /* LoadableCategory.h */,
+				A79B8FAA140F3539004E4A9C /* NSFileManager-KIFAdditions.h */,
+				A79B8FAB140F3539004E4A9C /* NSFileManager-KIFAdditions.m */,
+				A79B8FAC140F3539004E4A9C /* UIAccessibilityElement-KIFAdditions.h */,
+				A79B8FAD140F3539004E4A9C /* UIAccessibilityElement-KIFAdditions.m */,
+				A79B8FAE140F3539004E4A9C /* UIApplication-KIFAdditions.h */,
+				A79B8FAF140F3539004E4A9C /* UIApplication-KIFAdditions.m */,
+				A79B8FB0140F3539004E4A9C /* UIScrollView-KIFAdditions.h */,
+				A79B8FB1140F3539004E4A9C /* UIScrollView-KIFAdditions.m */,
+				A79B8FB2140F3539004E4A9C /* UITouch-KIFAdditions.h */,
+				A79B8FB3140F3539004E4A9C /* UITouch-KIFAdditions.m */,
+				A79B8FB4140F3539004E4A9C /* UIView-KIFAdditions.h */,
+				A79B8FB5140F3539004E4A9C /* UIView-KIFAdditions.m */,
+				A79B8FB6140F3539004E4A9C /* UIWindow-KIFAdditions.h */,
+				A79B8FB7140F3539004E4A9C /* UIWindow-KIFAdditions.m */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+		A79B8FB8140F3539004E4A9C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A79B8FB9140F3539004E4A9C /* KIF-Prefix.pch */,
+				A79B8FBA140F3539004E4A9C /* KIFTestController.h */,
+				A79B8FBB140F3539004E4A9C /* KIFTestController.m */,
+				A79B8FBC140F3539004E4A9C /* KIFTestScenario.h */,
+				A79B8FBD140F3539004E4A9C /* KIFTestScenario.m */,
+				A79B8FBE140F3539004E4A9C /* KIFTestStep.h */,
+				A79B8FBF140F3539004E4A9C /* KIFTestStep.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A7DE9C84140E8D11003AB0DD = {
+			isa = PBXGroup;
+			children = (
+				A7DE9D1B140E8DE0003AB0DD /* App */,
+				A7DE9D0F140E8DD8003AB0DD /* Tests */,
+				A7DE9D0E140E8DB9003AB0DD /* Libraries */,
+				A7DE9C92140E8D11003AB0DD /* Frameworks */,
+				A7DE9C90140E8D11003AB0DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7DE9C90140E8D11003AB0DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7DE9C8F140E8D11003AB0DD /* RakuLayoutExample.app */,
+				A7DE9CBD140E8D11003AB0DD /* RakuLayoutExampleTests.octest */,
+				A79B8F97140F32B6004E4A9C /* RakuLayoutExampleIntegrationTests.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7DE9C92140E8D11003AB0DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7DE9C93140E8D11003AB0DD /* UIKit.framework */,
+				A7DE9C95140E8D11003AB0DD /* Foundation.framework */,
+				A7DE9C97140E8D11003AB0DD /* CoreGraphics.framework */,
+				A7DE9C99140E8D11003AB0DD /* CoreData.framework */,
+				A7DE9CBE140E8D11003AB0DD /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7DE9D0E140E8DB9003AB0DD /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				A79B8FA5140F3539004E4A9C /* KIF */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		A7DE9D0F140E8DD8003AB0DD /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A7DE9D14140E8DD8003AB0DD /* Functional */,
+				A7DE9D17140E8DD8003AB0DD /* Integration */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		A7DE9D14140E8DD8003AB0DD /* Functional */ = {
+			isa = PBXGroup;
+			children = (
+				A79B8F48140F2D77004E4A9C /* Controllers */,
+				A79B8F4B140F2D77004E4A9C /* Helpers */,
+				A79B8F4C140F2D77004E4A9C /* Models */,
+			);
+			path = Functional;
+			sourceTree = "<group>";
+		};
+		A7DE9D17140E8DD8003AB0DD /* Integration */ = {
+			isa = PBXGroup;
+			children = (
+				A79B8FA2140F3421004E4A9C /* Config */,
+				A79B8F7A140F3045004E4A9C /* Categories */,
+				A79B8F4E140F2D84004E4A9C /* Controllers */,
+				A79B8F4F140F2D84004E4A9C /* Helpers */,
+				A79B8F50140F2D84004E4A9C /* Models */,
+			);
+			path = Integration;
+			sourceTree = "<group>";
+		};
+		A7DE9D1B140E8DE0003AB0DD /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A7DE9D31140E8DE0003AB0DD /* main.m */,
+				A7DE9D1C140E8DE0003AB0DD /* Assets */,
+				A7DE9D1D140E8DE0003AB0DD /* Categories */,
+				A7DE9D1E140E8DE0003AB0DD /* Config */,
+				A7DE9D23140E8DE0003AB0DD /* Controllers */,
+				A7DE9D24140E8DE0003AB0DD /* Data */,
+				A7DE9D27140E8DE0003AB0DD /* Delegate */,
+				A7DE9D30140E8DE0003AB0DD /* Helpers */,
+				A7DE9D32140E8DE0003AB0DD /* Models */,
+				A7DE9D33140E8DE0003AB0DD /* Protocols */,
+				A7DE9D34140E8DE0003AB0DD /* Views */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A7DE9D1C140E8DE0003AB0DD /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		A7DE9D1D140E8DE0003AB0DD /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		A7DE9D1E140E8DE0003AB0DD /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				A7DE9D1F140E8DE0003AB0DD /* InfoPlist.strings */,
+				A7DE9D21140E8DE0003AB0DD /* RakuLayoutExample-Info.plist */,
+				A7DE9D22140E8DE0003AB0DD /* RakuLayoutExample-Prefix.pch */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		A7DE9D23140E8DE0003AB0DD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A7DE9D6B140E9E70003AB0DD /* iPad */,
+				A7DE9D6C140E9E70003AB0DD /* iPhone */,
+				A7DE9D5A140E94E9003AB0DD /* RKUHelloViewController.h */,
+				A7DE9D5B140E94E9003AB0DD /* RKUHelloViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A7DE9D24140E8DE0003AB0DD /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A7DE9D25140E8DE0003AB0DD /* RakuLayoutExample.xcdatamodeld */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		A7DE9D27140E8DE0003AB0DD /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				A7DE9D4D140E9036003AB0DD /* RKUAppDelegate.h */,
+				A7DE9D4E140E9036003AB0DD /* RKUAppDelegate.m */,
+				A7DE9D2A140E8DE0003AB0DD /* iPad */,
+				A7DE9D2D140E8DE0003AB0DD /* iPhone */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		A7DE9D2A140E8DE0003AB0DD /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				A7DE9D51140E9051003AB0DD /* RKUAppDelegate_iPad.h */,
+				A7DE9D52140E9051003AB0DD /* RKUAppDelegate_iPad.m */,
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		A7DE9D2D140E8DE0003AB0DD /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				A7DE9D55140E9073003AB0DD /* RKUAppDelegate_iPhone.h */,
+				A7DE9D56140E9073003AB0DD /* RKUAppDelegate_iPhone.m */,
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		A7DE9D30140E8DE0003AB0DD /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A7DE9D32140E8DE0003AB0DD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A7DE9D33140E8DE0003AB0DD /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		A7DE9D34140E8DE0003AB0DD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A7DE9D35140E8DE0003AB0DD /* iPad */,
+				A7DE9D38140E8DE0003AB0DD /* iPhone */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A7DE9D35140E8DE0003AB0DD /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				A7DE9D7B140EA036003AB0DD /* RKUHelloViewController_iPad.xib */,
+				A7DE9D36140E8DE0003AB0DD /* MainWindow_iPad.xib */,
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		A7DE9D38140E8DE0003AB0DD /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				A7DE9D7F140EA045003AB0DD /* RKUHelloViewController_iPhone.xib */,
+				A7DE9D39140E8DE0003AB0DD /* MainWindow_iPhone.xib */,
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		A7DE9D6B140E9E70003AB0DD /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				A7DE9D74140E9FB3003AB0DD /* RKUHelloViewController_iPad.h */,
+				A7DE9D75140E9FB3003AB0DD /* RKUHelloViewController_iPad.m */,
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		A7DE9D6C140E9E70003AB0DD /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				A7DE9D6D140E9FA2003AB0DD /* RKUHelloViewController_iPhone.h */,
+				A7DE9D6E140E9FA2003AB0DD /* RKUHelloViewController_iPhone.m */,
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A79B8F7E140F32B6004E4A9C /* RakuLayoutExampleIntegrationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A79B8F94140F32B6004E4A9C /* Build configuration list for PBXNativeTarget "RakuLayoutExampleIntegrationTests" */;
+			buildPhases = (
+				A79B8F7F140F32B6004E4A9C /* Sources */,
+				A79B8F88140F32B6004E4A9C /* Frameworks */,
+				A79B8F8D140F32B6004E4A9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RakuLayoutExampleIntegrationTests;
+			productName = RakuLayoutExample;
+			productReference = A79B8F97140F32B6004E4A9C /* RakuLayoutExampleIntegrationTests.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7DE9C8E140E8D11003AB0DD /* RakuLayoutExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7DE9CD2140E8D11003AB0DD /* Build configuration list for PBXNativeTarget "RakuLayoutExample" */;
+			buildPhases = (
+				A7DE9C8B140E8D11003AB0DD /* Sources */,
+				A7DE9C8C140E8D11003AB0DD /* Frameworks */,
+				A7DE9C8D140E8D11003AB0DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RakuLayoutExample;
+			productName = RakuLayoutExample;
+			productReference = A7DE9C8F140E8D11003AB0DD /* RakuLayoutExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7DE9CBC140E8D11003AB0DD /* RakuLayoutExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7DE9CD5140E8D11003AB0DD /* Build configuration list for PBXNativeTarget "RakuLayoutExampleTests" */;
+			buildPhases = (
+				A7DE9CB8140E8D11003AB0DD /* Sources */,
+				A7DE9CB9140E8D11003AB0DD /* Frameworks */,
+				A7DE9CBA140E8D11003AB0DD /* Resources */,
+				A7DE9CBB140E8D11003AB0DD /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7DE9CC5140E8D11003AB0DD /* PBXTargetDependency */,
+			);
+			name = RakuLayoutExampleTests;
+			productName = RakuLayoutExampleTests;
+			productReference = A7DE9CBD140E8D11003AB0DD /* RakuLayoutExampleTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7DE9C86140E8D11003AB0DD /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = A7DE9C89140E8D11003AB0DD /* Build configuration list for PBXProject "RakuLayoutExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A7DE9C84140E8D11003AB0DD;
+			productRefGroup = A7DE9C90140E8D11003AB0DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7DE9C8E140E8D11003AB0DD /* RakuLayoutExample */,
+				A7DE9CBC140E8D11003AB0DD /* RakuLayoutExampleTests */,
+				A79B8F7E140F32B6004E4A9C /* RakuLayoutExampleIntegrationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A79B8F8D140F32B6004E4A9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A79B8F8E140F32B6004E4A9C /* InfoPlist.strings in Resources */,
+				A79B8F8F140F32B6004E4A9C /* RakuLayoutExample-Info.plist in Resources */,
+				A79B8F90140F32B6004E4A9C /* MainWindow_iPad.xib in Resources */,
+				A79B8F91140F32B6004E4A9C /* MainWindow_iPhone.xib in Resources */,
+				A79B8F92140F32B6004E4A9C /* RKUHelloViewController_iPad.xib in Resources */,
+				A79B8F93140F32B6004E4A9C /* RKUHelloViewController_iPhone.xib in Resources */,
+				A79B8FA4140F3421004E4A9C /* RakuLayoutExampleIntegrationTests-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7DE9C8D140E8D11003AB0DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7DE9D3B140E8DE0003AB0DD /* InfoPlist.strings in Resources */,
+				A7DE9D3D140E8DE0003AB0DD /* RakuLayoutExample-Info.plist in Resources */,
+				A7DE9D49140E8DE0003AB0DD /* MainWindow_iPad.xib in Resources */,
+				A7DE9D4B140E8DE0003AB0DD /* MainWindow_iPhone.xib in Resources */,
+				A7DE9D7D140EA036003AB0DD /* RKUHelloViewController_iPad.xib in Resources */,
+				A7DE9D81140EA045003AB0DD /* RKUHelloViewController_iPhone.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7DE9CBA140E8D11003AB0DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7DE9D3C140E8DE0003AB0DD /* InfoPlist.strings in Resources */,
+				A7DE9D3E140E8DE0003AB0DD /* RakuLayoutExample-Info.plist in Resources */,
+				A7DE9D4A140E8DE0003AB0DD /* MainWindow_iPad.xib in Resources */,
+				A7DE9D4C140E8DE0003AB0DD /* MainWindow_iPhone.xib in Resources */,
+				A7DE9D7E140EA036003AB0DD /* RKUHelloViewController_iPad.xib in Resources */,
+				A7DE9D82140EA045003AB0DD /* RKUHelloViewController_iPhone.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A7DE9CBB140E8D11003AB0DD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A79B8F7F140F32B6004E4A9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A79B8F80140F32B6004E4A9C /* RakuLayoutExample.xcdatamodeld in Sources */,
+				A79B8F81140F32B6004E4A9C /* main.m in Sources */,
+				A79B8F82140F32B6004E4A9C /* RKUAppDelegate.m in Sources */,
+				A79B8F83140F32B6004E4A9C /* RKUAppDelegate_iPad.m in Sources */,
+				A79B8F84140F32B6004E4A9C /* RKUAppDelegate_iPhone.m in Sources */,
+				A79B8F85140F32B6004E4A9C /* RKUHelloViewController.m in Sources */,
+				A79B8F86140F32B6004E4A9C /* RKUHelloViewController_iPhone.m in Sources */,
+				A79B8F87140F32B6004E4A9C /* RKUHelloViewController_iPad.m in Sources */,
+				A79B8F9C140F3364004E4A9C /* KIFTestScenario+RKUAdditions.m in Sources */,
+				A79B8F9F140F3371004E4A9C /* RKUHelloViewControllerIntegrationTest.m in Sources */,
+				A79B8FC0140F3539004E4A9C /* CGGeometry-KIFAdditions.m in Sources */,
+				A79B8FC1140F3539004E4A9C /* NSFileManager-KIFAdditions.m in Sources */,
+				A79B8FC2140F3539004E4A9C /* UIAccessibilityElement-KIFAdditions.m in Sources */,
+				A79B8FC3140F3539004E4A9C /* UIApplication-KIFAdditions.m in Sources */,
+				A79B8FC4140F3539004E4A9C /* UIScrollView-KIFAdditions.m in Sources */,
+				A79B8FC5140F3539004E4A9C /* UITouch-KIFAdditions.m in Sources */,
+				A79B8FC6140F3539004E4A9C /* UIView-KIFAdditions.m in Sources */,
+				A79B8FC7140F3539004E4A9C /* UIWindow-KIFAdditions.m in Sources */,
+				A79B8FC8140F3539004E4A9C /* KIFTestController.m in Sources */,
+				A79B8FC9140F3539004E4A9C /* KIFTestScenario.m in Sources */,
+				A79B8FCA140F3539004E4A9C /* KIFTestStep.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7DE9C8B140E8D11003AB0DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7DE9D3F140E8DE0003AB0DD /* RakuLayoutExample.xcdatamodeld in Sources */,
+				A7DE9D47140E8DE0003AB0DD /* main.m in Sources */,
+				A7DE9D4F140E9036003AB0DD /* RKUAppDelegate.m in Sources */,
+				A7DE9D53140E9051003AB0DD /* RKUAppDelegate_iPad.m in Sources */,
+				A7DE9D57140E9073003AB0DD /* RKUAppDelegate_iPhone.m in Sources */,
+				A7DE9D5D140E94E9003AB0DD /* RKUHelloViewController.m in Sources */,
+				A7DE9D70140E9FA2003AB0DD /* RKUHelloViewController_iPhone.m in Sources */,
+				A7DE9D77140E9FB3003AB0DD /* RKUHelloViewController_iPad.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7DE9CB8140E8D11003AB0DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7DE9D40140E8DE0003AB0DD /* RakuLayoutExample.xcdatamodeld in Sources */,
+				A7DE9D48140E8DE0003AB0DD /* main.m in Sources */,
+				A7DE9D50140E9036003AB0DD /* RKUAppDelegate.m in Sources */,
+				A7DE9D54140E9051003AB0DD /* RKUAppDelegate_iPad.m in Sources */,
+				A7DE9D58140E9073003AB0DD /* RKUAppDelegate_iPhone.m in Sources */,
+				A7DE9D5E140E94E9003AB0DD /* RKUHelloViewController.m in Sources */,
+				A7DE9D71140E9FA2003AB0DD /* RKUHelloViewController_iPhone.m in Sources */,
+				A7DE9D78140E9FB3003AB0DD /* RKUHelloViewController_iPad.m in Sources */,
+				A79B8F4D140F2D77004E4A9C /* RKUHelloViewControllerTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7DE9CC5140E8D11003AB0DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7DE9C8E140E8D11003AB0DD /* RakuLayoutExample */;
+			targetProxy = A7DE9CC4140E8D11003AB0DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A7DE9D1F140E8DE0003AB0DD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7DE9D20140E8DE0003AB0DD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A7DE9D36140E8DE0003AB0DD /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7DE9D37140E8DE0003AB0DD /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+		A7DE9D39140E8DE0003AB0DD /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7DE9D3A140E8DE0003AB0DD /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A7DE9D7B140EA036003AB0DD /* RKUHelloViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7DE9D7C140EA036003AB0DD /* en */,
+			);
+			name = RKUHelloViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		A7DE9D7F140EA045003AB0DD /* RKUHelloViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7DE9D80140EA045003AB0DD /* en */,
+			);
+			name = RKUHelloViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A79B8F95140F32B6004E4A9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RakuLayoutExample/RakuLayoutExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"RUN_KIF_TESTS=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tests/Integration/Config/RakuLayoutExampleIntegrationTests-Info.plist";
+				PRODUCT_NAME = RakuLayoutExampleIntegrationTests;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A79B8F96140F32B6004E4A9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RakuLayoutExample/RakuLayoutExample-Prefix.pch";
+				INFOPLIST_FILE = "Tests/Integration/Config/RakuLayoutExampleIntegrationTests-Info.plist";
+				PRODUCT_NAME = RakuLayoutExampleIntegrationTests;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A7DE9CD0140E8D11003AB0DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7DE9CD1140E8D11003AB0DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7DE9CD3140E8D11003AB0DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RakuLayoutExample/RakuLayoutExample-Prefix.pch";
+				INFOPLIST_FILE = "RakuLayoutExample/RakuLayoutExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A7DE9CD4140E8D11003AB0DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RakuLayoutExample/RakuLayoutExample-Prefix.pch";
+				INFOPLIST_FILE = "RakuLayoutExample/RakuLayoutExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A7DE9CD6140E8D11003AB0DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RakuLayoutExample.app/RakuLayoutExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RakuLayoutExample/RakuLayoutExample-Prefix.pch";
+				INFOPLIST_FILE = "RakuLayoutExampleTests/RakuLayoutExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A7DE9CD7140E8D11003AB0DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RakuLayoutExample.app/RakuLayoutExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RakuLayoutExample/RakuLayoutExample-Prefix.pch";
+				INFOPLIST_FILE = "RakuLayoutExampleTests/RakuLayoutExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A79B8F94140F32B6004E4A9C /* Build configuration list for PBXNativeTarget "RakuLayoutExampleIntegrationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A79B8F95140F32B6004E4A9C /* Debug */,
+				A79B8F96140F32B6004E4A9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7DE9C89140E8D11003AB0DD /* Build configuration list for PBXProject "RakuLayoutExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7DE9CD0140E8D11003AB0DD /* Debug */,
+				A7DE9CD1140E8D11003AB0DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7DE9CD2140E8D11003AB0DD /* Build configuration list for PBXNativeTarget "RakuLayoutExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7DE9CD3140E8D11003AB0DD /* Debug */,
+				A7DE9CD4140E8D11003AB0DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7DE9CD5140E8D11003AB0DD /* Build configuration list for PBXNativeTarget "RakuLayoutExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7DE9CD6140E8D11003AB0DD /* Debug */,
+				A7DE9CD7140E8D11003AB0DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A7DE9D25140E8DE0003AB0DD /* RakuLayoutExample.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A7DE9D26140E8DE0003AB0DD /* RakuLayoutExample.xcdatamodel */,
+			);
+			currentVersion = A7DE9D26140E8DE0003AB0DD /* RakuLayoutExample.xcdatamodel */;
+			path = RakuLayoutExample.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A7DE9C86140E8D11003AB0DD /* Project object */;
+}
