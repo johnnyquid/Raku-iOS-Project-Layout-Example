@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A7314B48140FEC4C00D4D3F2 /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = A7314B45140FEC4C00D4D3F2 /* Default-Landscape.png */; };
+		A7314B49140FEC4C00D4D3F2 /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = A7314B45140FEC4C00D4D3F2 /* Default-Landscape.png */; };
+		A7314B4A140FEC4C00D4D3F2 /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = A7314B45140FEC4C00D4D3F2 /* Default-Landscape.png */; };
+		A7314B4B140FEC4C00D4D3F2 /* Default-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = A7314B46140FEC4C00D4D3F2 /* Default-Portrait.png */; };
+		A7314B4C140FEC4C00D4D3F2 /* Default-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = A7314B46140FEC4C00D4D3F2 /* Default-Portrait.png */; };
+		A7314B4D140FEC4C00D4D3F2 /* Default-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = A7314B46140FEC4C00D4D3F2 /* Default-Portrait.png */; };
+		A7314B4E140FEC4C00D4D3F2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A7314B47140FEC4C00D4D3F2 /* Default.png */; };
+		A7314B4F140FEC4C00D4D3F2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A7314B47140FEC4C00D4D3F2 /* Default.png */; };
+		A7314B50140FEC4C00D4D3F2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A7314B47140FEC4C00D4D3F2 /* Default.png */; };
+		A7314B53140FF01300D4D3F2 /* NSString+RKUMD5Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = A7314B52140FF01300D4D3F2 /* NSString+RKUMD5Additions.m */; };
+		A7314B54140FF01300D4D3F2 /* NSString+RKUMD5Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = A7314B52140FF01300D4D3F2 /* NSString+RKUMD5Additions.m */; };
+		A7314B55140FF01300D4D3F2 /* NSString+RKUMD5Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = A7314B52140FF01300D4D3F2 /* NSString+RKUMD5Additions.m */; };
+		A7314B5E140FF6DD00D4D3F2 /* RKUExampleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A7314B5D140FF6DD00D4D3F2 /* RKUExampleModel.m */; };
+		A7314B5F140FF6DD00D4D3F2 /* RKUExampleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A7314B5D140FF6DD00D4D3F2 /* RKUExampleModel.m */; };
+		A7314B60140FF6DD00D4D3F2 /* RKUExampleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A7314B5D140FF6DD00D4D3F2 /* RKUExampleModel.m */; };
 		A79B8F4D140F2D77004E4A9C /* RKUHelloViewControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A79B8F4A140F2D77004E4A9C /* RKUHelloViewControllerTest.m */; };
 		A79B8F80140F32B6004E4A9C /* RakuLayoutExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A7DE9D25140E8DE0003AB0DD /* RakuLayoutExample.xcdatamodeld */; };
 		A79B8F81140F32B6004E4A9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7DE9D31140E8DE0003AB0DD /* main.m */; };
@@ -90,6 +105,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A7314B45140FEC4C00D4D3F2 /* Default-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape.png"; sourceTree = "<group>"; };
+		A7314B46140FEC4C00D4D3F2 /* Default-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait.png"; sourceTree = "<group>"; };
+		A7314B47140FEC4C00D4D3F2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A7314B51140FF01300D4D3F2 /* NSString+RKUMD5Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+RKUMD5Additions.h"; sourceTree = "<group>"; };
+		A7314B52140FF01300D4D3F2 /* NSString+RKUMD5Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+RKUMD5Additions.m"; sourceTree = "<group>"; };
+		A7314B56140FF51C00D4D3F2 /* RKUDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKUDLog.h; sourceTree = "<group>"; };
+		A7314B5C140FF6DD00D4D3F2 /* RKUExampleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKUExampleModel.h; sourceTree = "<group>"; };
+		A7314B5D140FF6DD00D4D3F2 /* RKUExampleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKUExampleModel.m; sourceTree = "<group>"; };
+		A7314B61140FF6ED00D4D3F2 /* RKUExampleProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKUExampleProtocol.h; sourceTree = "<group>"; };
 		A79B8F49140F2D77004E4A9C /* RKUHelloViewControllerTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKUHelloViewControllerTest.h; sourceTree = "<group>"; };
 		A79B8F4A140F2D77004E4A9C /* RKUHelloViewControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKUHelloViewControllerTest.m; sourceTree = "<group>"; };
 		A79B8F97140F32B6004E4A9C /* RakuLayoutExampleIntegrationTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RakuLayoutExampleIntegrationTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -190,6 +214,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A7314B42140FEC2600D4D3F2 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		A7314B43140FEC2600D4D3F2 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A7314B45140FEC4C00D4D3F2 /* Default-Landscape.png */,
+				A7314B46140FEC4C00D4D3F2 /* Default-Portrait.png */,
+				A7314B47140FEC4C00D4D3F2 /* Default.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		A79B8F48140F2D77004E4A9C /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -393,6 +434,8 @@
 		A7DE9D1C140E8DE0003AB0DD /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				A7314B42140FEC2600D4D3F2 /* Icons */,
+				A7314B43140FEC2600D4D3F2 /* Images */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -400,6 +443,8 @@
 		A7DE9D1D140E8DE0003AB0DD /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				A7314B51140FF01300D4D3F2 /* NSString+RKUMD5Additions.h */,
+				A7314B52140FF01300D4D3F2 /* NSString+RKUMD5Additions.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -465,6 +510,7 @@
 		A7DE9D30140E8DE0003AB0DD /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				A7314B56140FF51C00D4D3F2 /* RKUDLog.h */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -472,6 +518,8 @@
 		A7DE9D32140E8DE0003AB0DD /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				A7314B5C140FF6DD00D4D3F2 /* RKUExampleModel.h */,
+				A7314B5D140FF6DD00D4D3F2 /* RKUExampleModel.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -479,6 +527,7 @@
 		A7DE9D33140E8DE0003AB0DD /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				A7314B61140FF6ED00D4D3F2 /* RKUExampleProtocol.h */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -620,6 +669,9 @@
 				A79B8F92140F32B6004E4A9C /* RKUHelloViewController_iPad.xib in Resources */,
 				A79B8F93140F32B6004E4A9C /* RKUHelloViewController_iPhone.xib in Resources */,
 				A79B8FA4140F3421004E4A9C /* RakuLayoutExampleIntegrationTests-Info.plist in Resources */,
+				A7314B4A140FEC4C00D4D3F2 /* Default-Landscape.png in Resources */,
+				A7314B4D140FEC4C00D4D3F2 /* Default-Portrait.png in Resources */,
+				A7314B50140FEC4C00D4D3F2 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -633,6 +685,9 @@
 				A7DE9D4B140E8DE0003AB0DD /* MainWindow_iPhone.xib in Resources */,
 				A7DE9D7D140EA036003AB0DD /* RKUHelloViewController_iPad.xib in Resources */,
 				A7DE9D81140EA045003AB0DD /* RKUHelloViewController_iPhone.xib in Resources */,
+				A7314B48140FEC4C00D4D3F2 /* Default-Landscape.png in Resources */,
+				A7314B4B140FEC4C00D4D3F2 /* Default-Portrait.png in Resources */,
+				A7314B4E140FEC4C00D4D3F2 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -646,6 +701,9 @@
 				A7DE9D4C140E8DE0003AB0DD /* MainWindow_iPhone.xib in Resources */,
 				A7DE9D7E140EA036003AB0DD /* RKUHelloViewController_iPad.xib in Resources */,
 				A7DE9D82140EA045003AB0DD /* RKUHelloViewController_iPhone.xib in Resources */,
+				A7314B49140FEC4C00D4D3F2 /* Default-Landscape.png in Resources */,
+				A7314B4C140FEC4C00D4D3F2 /* Default-Portrait.png in Resources */,
+				A7314B4F140FEC4C00D4D3F2 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -693,6 +751,8 @@
 				A79B8FC8140F3539004E4A9C /* KIFTestController.m in Sources */,
 				A79B8FC9140F3539004E4A9C /* KIFTestScenario.m in Sources */,
 				A79B8FCA140F3539004E4A9C /* KIFTestStep.m in Sources */,
+				A7314B55140FF01300D4D3F2 /* NSString+RKUMD5Additions.m in Sources */,
+				A7314B60140FF6DD00D4D3F2 /* RKUExampleModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -708,6 +768,8 @@
 				A7DE9D5D140E94E9003AB0DD /* RKUHelloViewController.m in Sources */,
 				A7DE9D70140E9FA2003AB0DD /* RKUHelloViewController_iPhone.m in Sources */,
 				A7DE9D77140E9FB3003AB0DD /* RKUHelloViewController_iPad.m in Sources */,
+				A7314B53140FF01300D4D3F2 /* NSString+RKUMD5Additions.m in Sources */,
+				A7314B5E140FF6DD00D4D3F2 /* RKUExampleModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -724,6 +786,8 @@
 				A7DE9D71140E9FA2003AB0DD /* RKUHelloViewController_iPhone.m in Sources */,
 				A7DE9D78140E9FB3003AB0DD /* RKUHelloViewController_iPad.m in Sources */,
 				A79B8F4D140F2D77004E4A9C /* RKUHelloViewControllerTest.m in Sources */,
+				A7314B54140FF01300D4D3F2 /* NSString+RKUMD5Additions.m in Sources */,
+				A7314B5F140FF6DD00D4D3F2 /* RKUExampleModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -785,7 +849,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RakuLayoutExample/RakuLayoutExample-Prefix.pch";
+				GCC_PREFIX_HEADER = "App/Config/RakuLayoutExample-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"RUN_KIF_TESTS=1",
 					"DEBUG=1",
@@ -801,7 +865,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RakuLayoutExample/RakuLayoutExample-Prefix.pch";
+				GCC_PREFIX_HEADER = "App/Config/RakuLayoutExample-Prefix.pch";
 				INFOPLIST_FILE = "Tests/Integration/Config/RakuLayoutExampleIntegrationTests-Info.plist";
 				PRODUCT_NAME = RakuLayoutExampleIntegrationTests;
 				WRAPPER_EXTENSION = app;
@@ -857,8 +921,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RakuLayoutExample/RakuLayoutExample-Prefix.pch";
-				INFOPLIST_FILE = "RakuLayoutExample/RakuLayoutExample-Info.plist";
+				GCC_PREFIX_HEADER = "App/Config/RakuLayoutExample-Prefix.pch";
+				INFOPLIST_FILE = "App/Config/RakuLayoutExample-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -868,8 +932,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RakuLayoutExample/RakuLayoutExample-Prefix.pch";
-				INFOPLIST_FILE = "RakuLayoutExample/RakuLayoutExample-Info.plist";
+				GCC_PREFIX_HEADER = "App/Config/RakuLayoutExample-Prefix.pch";
+				INFOPLIST_FILE = "App/Config/RakuLayoutExample-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
