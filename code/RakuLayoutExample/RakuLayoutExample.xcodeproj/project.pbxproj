@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A726D3551410214F004DBD2E /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A726D3541410214F004DBD2E /* libxml2.2.dylib */; };
+		A726D35914102576004DBD2E /* NSString+RKUMD5AdditionsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A726D35814102576004DBD2E /* NSString+RKUMD5AdditionsTest.m */; };
 		A7314B48140FEC4C00D4D3F2 /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = A7314B45140FEC4C00D4D3F2 /* Default-Landscape.png */; };
 		A7314B49140FEC4C00D4D3F2 /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = A7314B45140FEC4C00D4D3F2 /* Default-Landscape.png */; };
 		A7314B4A140FEC4C00D4D3F2 /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = A7314B45140FEC4C00D4D3F2 /* Default-Landscape.png */; };
@@ -105,6 +107,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A726D3541410214F004DBD2E /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+		A726D35714102576004DBD2E /* NSString+RKUMD5AdditionsTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+RKUMD5AdditionsTest.h"; sourceTree = "<group>"; };
+		A726D35814102576004DBD2E /* NSString+RKUMD5AdditionsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+RKUMD5AdditionsTest.m"; sourceTree = "<group>"; };
 		A7314B45140FEC4C00D4D3F2 /* Default-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape.png"; sourceTree = "<group>"; };
 		A7314B46140FEC4C00D4D3F2 /* Default-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait.png"; sourceTree = "<group>"; };
 		A7314B47140FEC4C00D4D3F2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -181,6 +186,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A726D3551410214F004DBD2E /* libxml2.2.dylib in Frameworks */,
 				A79B8F89140F32B6004E4A9C /* UIKit.framework in Frameworks */,
 				A79B8F8A140F32B6004E4A9C /* Foundation.framework in Frameworks */,
 				A79B8F8B140F32B6004E4A9C /* CoreGraphics.framework in Frameworks */,
@@ -243,15 +249,10 @@
 		A79B8F4B140F2D77004E4A9C /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				A726D35714102576004DBD2E /* NSString+RKUMD5AdditionsTest.h */,
+				A726D35814102576004DBD2E /* NSString+RKUMD5AdditionsTest.m */,
 			);
 			path = Helpers;
-			sourceTree = "<group>";
-		};
-		A79B8F4C140F2D77004E4A9C /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 		A79B8F4E140F2D84004E4A9C /* Controllers */ = {
@@ -261,20 +262,6 @@
 				A79B8F9E140F3371004E4A9C /* RKUHelloViewControllerIntegrationTest.m */,
 			);
 			path = Controllers;
-			sourceTree = "<group>";
-		};
-		A79B8F4F140F2D84004E4A9C /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Helpers;
-			sourceTree = "<group>";
-		};
-		A79B8F50140F2D84004E4A9C /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 		A79B8F7A140F3045004E4A9C /* Categories */ = {
@@ -377,6 +364,7 @@
 		A7DE9D0E140E8DB9003AB0DD /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				A726D3541410214F004DBD2E /* libxml2.2.dylib */,
 				A79B8FA5140F3539004E4A9C /* KIF */,
 			);
 			path = Libraries;
@@ -396,7 +384,6 @@
 			children = (
 				A79B8F48140F2D77004E4A9C /* Controllers */,
 				A79B8F4B140F2D77004E4A9C /* Helpers */,
-				A79B8F4C140F2D77004E4A9C /* Models */,
 			);
 			path = Functional;
 			sourceTree = "<group>";
@@ -407,8 +394,6 @@
 				A79B8FA2140F3421004E4A9C /* Config */,
 				A79B8F7A140F3045004E4A9C /* Categories */,
 				A79B8F4E140F2D84004E4A9C /* Controllers */,
-				A79B8F4F140F2D84004E4A9C /* Helpers */,
-				A79B8F50140F2D84004E4A9C /* Models */,
 			);
 			path = Integration;
 			sourceTree = "<group>";
@@ -788,6 +773,7 @@
 				A79B8F4D140F2D77004E4A9C /* RKUHelloViewControllerTest.m in Sources */,
 				A7314B54140FF01300D4D3F2 /* NSString+RKUMD5Additions.m in Sources */,
 				A7314B5F140FF6DD00D4D3F2 /* RKUExampleModel.m in Sources */,
+				A726D35914102576004DBD2E /* NSString+RKUMD5AdditionsTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -948,8 +934,8 @@
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RakuLayoutExample/RakuLayoutExample-Prefix.pch";
-				INFOPLIST_FILE = "RakuLayoutExampleTests/RakuLayoutExampleTests-Info.plist";
+				GCC_PREFIX_HEADER = "App/Config/RakuLayoutExample-Prefix.pch";
+				INFOPLIST_FILE = "Tests/Functional/Config/RakuLayoutExampleTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
@@ -965,8 +951,8 @@
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RakuLayoutExample/RakuLayoutExample-Prefix.pch";
-				INFOPLIST_FILE = "RakuLayoutExampleTests/RakuLayoutExampleTests-Info.plist";
+				GCC_PREFIX_HEADER = "App/Config/RakuLayoutExample-Prefix.pch";
+				INFOPLIST_FILE = "Tests/Functional/Config/RakuLayoutExampleTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
